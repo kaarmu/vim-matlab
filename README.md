@@ -5,6 +5,11 @@ An alternative to Matlab's default editor for Vim users.
 
 ## FAQ
 
+#### Why this fork?
+
+I've ported everything to python3. If needed python2 code is still available
+under the backups `rplugin/python-bak` and `scripts/vim-matlab-server.py.bak`.
+
 #### How do I run code cells (`%%` blocks)?
 
 In Normal mode, press `<Enter>` or `<C-m>`. The editor will parse the code in the current cell and send to MATLAB for evaluation.
